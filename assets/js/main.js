@@ -27,15 +27,5 @@ document.addEventListener('DOMContentLoaded', function() {
     if (currentYear) {
         currentYear.textContent = new Date().getFullYear();
     }
-    
-    // Hide logo placeholder if logo doesn't exist
-    const logoPlaceholder = document.getElementById('logo-placeholder');
-    if (logoPlaceholder) {
-        const img = new Image();
-        img.onerror = function() {
-            logoPlaceholder.style.display = 'none';
-        };
-        img.src = logoPlaceholder.src;
-    }
 });
 

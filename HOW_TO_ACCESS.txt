@@ -1,4 +1,4 @@
-# HOW TO ACCESS YOUR AGMIP WEBSITE
+# HOW TO ACCESS YOUR CalLMIP WEBSITE
 
 ## 📍 WHERE IS IT?
 
@@ -32,7 +32,7 @@ To make it accessible online for others to see:
 
 1. **Create a GitHub Repository**
    - Go to github.com
-   - Create a new repository (name it something like "agmip-website")
+   - Create a new repository (name it something like "callmip-website")
 
 2. **Upload Files to GitHub**
    - Copy all files from `C:\Users\whitn\agmip-website` 
@@ -64,7 +64,7 @@ The website consists of:
 
 1. Navigate to: `C:\Users\whitn\agmip-website`
 2. Double-click `index.html`
-3. You should see the AGMIP homepage!
+3. You should see the CalLMIP homepage!
 
 ## 📝 NEXT STEPS
 

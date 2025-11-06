@@ -1,6 +1,6 @@
-# AGMIP Website
+# CalLMIP Website
 
-Official website for the Agricultural Model Intercomparison Project (AGMIP).
+Official website for the Canadian Land Model Intercomparison Project (CalLMIP).
 
 ## Structure
 
