@@ -6,7 +6,7 @@
     <title>About - CalLMIP</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lexend:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -22,18 +22,17 @@
                 <li><a href="index.html" class="nav-link">Home</a></li>
                 <li><a href="about.html" class="nav-link active">About</a></li>
                 <li class="dropdown">
-                    <a href="protocol-and-data.html" class="nav-link">Protocol and Data</a>
+                    <a href="phase1.html" class="nav-link">Protocol and Data</a>
                     <ul class="dropdown-menu">
-                        <li><a href="protocol-and-data.html">Overview</a></li>
                         <li><a href="phase1.html">Phase 1</a></li>
+                        <li><a href="phase1-overview.html">Overview</a></li>
                         <li><a href="phase1-getting-started.html">Getting Started</a></li>
                         <li><a href="phase1-protocol.html">Protocol</a></li>
                         <li><a href="phase1-data.html">Data</a></li>
+                        <li><a href="phase1-participants.html">Participants</a></li>
                         <li><a href="phase1-coauthorship.html">Co-authorship</a></li>
-                        <li><a href="phase2.html">Phase 2</a></li>
                     </ul>
                 </li>
-                <li><a href="participants.html" class="nav-link">Participants</a></li>
                 <li class="dropdown">
                     <a href="events.html" class="nav-link">Events</a>
                     <ul class="dropdown-menu">
@@ -41,7 +40,7 @@
                         <li><a href="events-callmip-planning-workshop.html">CalLMIP 1st Phase Planning Workshop</a></li>
                     </ul>
                 </li>
-                <li><a href="resources.html" class="nav-link">Resources</a></li>
+                <li><a href="join.html" class="nav-link">Join!</a></li>
             </ul>
             <button class="nav-toggle" id="nav-toggle">
                 <span></span>
@@ -62,8 +61,51 @@
             </header>
 
             <section class="content-section">
-                <h2>Support and Collaboration</h2>
-                <p>CalLMIP is supported by the <a href="https://agmip.org" target="_blank" rel="noopener">Agricultural Model Intercomparison and Improvement Project (AGMIP)</a> for hosting and collaboration.</p>
+                <p>CalLMIP is a new initiative led by members of the Analysis and Integration of Modeling Earth Systems (AIMES) Land Data Assimilation Working Group and the International Land Modeling Forum (ILMF) Parameter Estimation Working Group.</p>
+                
+                <h2>Goals</h2>
+                <p>The overall goals envisaged for CalLMIP are:</p>
+                <ul>
+                    <li>To quantify the reduction in spread across global-scale land models as a result of parameter calibration for a wide range of variables (e.g., carbon and water stores and fluxes, aboveground biomass, soilC etc).</li>
+                    <li>To encourage the use of uncertainty quantification methods for constraining parameter uncertainty in global land models.</li>
+                    <li>To better understand and exchange knowledge on the variety of methods being used in global land model parameter calibration in order to identify best practices.</li>
+                </ul>
+                
+                <h2>Scope</h2>
+                <p>This initiative is targeted at global-scale land models - i.e., land surface, terrestrial biosphere models or dynamic global vegetation models that form part of earth system models, or intermediate complexity models and vegetation demographic models that are routinely run at global scale (for example for the global carbon budget).</p>
+                
+                <h2>Current Status</h2>
+                <p>In early 2025 the CalLMIP Steering Committee (see below) initiated the 1st Phase of CalLMIP, with the goal of evaluating how well models' existing ("in-house") parameter calibration efforts reduce model-data misfit and the spread across models for key variables. In March and April 2025 we held a series of three 1st phase planning and development workshops across two time zones to get feedback from the community on the goals and protocol for the 1st Phase, as well as discussing potential future phases of CalLMIP.</p>
+                
+                <p>The 1st Phase of CalLMIP will officially be launched on November 24th 2025! For more information and/or to get involved, please see <a href="phase1.html">Phase 1 protocol and data</a> page for more information and the <a href="events.html">1st Phase Launch Community Webinar</a> under Events.</p>
+            </section>
+
+            <section class="content-section">
+                <h2>CalLMIP Steering Committee</h2>
+                
+                <h3>Dr Katie Dagon</h3>
+                <p>Dr Katie Dagon is a research scientist at the NSF National Center for Atmospheric Research (NCAR) in Boulder, Colorado. Her research focuses on modeling the impacts of climate change on land-atmosphere interactions and climate variability. She applies machine learning approaches to climate data to detect extreme weather events, understand climate predictions, and quantify uncertainty in model projections of climate change.</p>
+                
+                <h3>Dr Natalie Douglas</h3>
+                <p>Dr Natalie Douglas is a Postdoctoral Research Assistant to Prof. Tristan Quaife at the University of Reading and is funded by the National Centre for Earth Observation. Initially pursuing a career as a Teaching Fellow, Natalie joined the Meteorology Department at Reading in September 2021, she now primarily works with the carbon cycle using JULES (the Joint UK Land Environment Simulator) as well as performing Data Assimilation activities using 4DEnVar (or LAVENDAR). Natalie was a co-author on the 'Parameter estimation in land surface models: challenges and opportunities with data assimilation and machine learning' and is a member of the CalLMIP organising committee.</p>
+                
+                <h3>Dr Istem Fer</h3>
+                <p>Dr Istem Fer is a Senior Researcher at the Finnish Meteorological Institute (FMI). She specializes in computational and quantitative ecology, with an emphasis on improving process-based mechanistic simulators through model-data synthesis. Her recent work focuses on developing monitoring, reporting, and verification (MRV) systems for soil carbon stock changes and greenhouse gas emissions in managed ecosystems, with key contributions on scalable cyberinfrastructure for data assimilation and near-term ecological forecasting workflows.</p>
+                
+                <h3>Dr Linnia Hawkins</h3>
+                <p>Dr Linnia Hawkins is an Associate Research Scientist in the Learning the Earth with AI and Physics Center at Columbia University. Her research integrates observational constraints with process-based modeling and machine learning to advance understanding of climate-carbon feedbacks and improve projections of terrestrial ecosystem change under future climate scenarios.</p>
+                
+                <h3>Dr Jana Kolassa</h3>
+                <p>Dr Jana Kolassa is a Researcher in the Coupled Data Assimilation team at the European Centre for Medium-Range Weather Forecasts (ECMWF).</p>
+                
+                <h3>Dr Natasha MacBean</h3>
+                <p>Dr Natasha MacBean is an Associate Professor in the Department of Geography and Environment and the Department of Biology at Western University, Canada. Her research focuses on understanding and predicting carbon-water-vegetation interactions and their response to climate and environmental change. Much of her past work has focused on developing and applying carbon cycle data assimilation systems to constrain parametric uncertainty in carbon cycle budgets predicted by land surface models.</p>
+                
+                <h3>Dr Tristan Quaife</h3>
+                <p>Dr Tristan Quaife is Professor of Earth System Science at the University of Reading and the UK National Centre for Earth Observation (NCEO). His research focuses on building stronger linkages between land models and Earth Observation data. In particular, he works on developing novel data assimilation tools and improving observation operators using radiative transfer theory.</p>
+                
+                <h3>Dr Nina Raoult</h3>
+                <p>Dr Nina Raoult is a research scientist at ECMWF, specialising in land surface modelling, parameter estimation, and machine learning. She currently contributes to the Destination Earth initiative, where she works on developing a data-driven Earth system model with a focus on the land component. She previously held an ESA CCI fellowship at LSCE in France and a Marie Curie fellowship at the University of Exeter, working with a range of observational datasets and data assimilation methods to reduce parametric uncertainty in a number of land surface models. Although awarded a Royal Society fellowship in 2024, she chose instead to join ECMWF where she contributes to the anemoi framework and expands the machine-learning toolkit for land surface modelling. In addition to serving on the CalLMIP organising committee, Nina is a member of the ML4LM (Machine Learning for Land Modelling) organising committee, co-organised the International Land Modeling Forum's webinar on parameter estimation and uncertainty quantification, and led a key community paper on machine-learning approaches for parameter estimation in land surface modelling.</p>
             </section>
         </div>
     </main>
