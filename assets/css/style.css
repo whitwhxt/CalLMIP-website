@@ -246,15 +246,16 @@ body {
     top: 0;
     left: calc(100% + 12px);
     margin-top: 0;
-    opacity: 0;
-    visibility: hidden;
+    opacity: 0 !important;
+    visibility: hidden !important;
     transform: translateX(-12px) scale(0.96);
+    display: block;
 }
 
 /* Only show nested menu when hovering directly on the nested dropdown item */
 .dropdown-menu .dropdown:hover > .dropdown-menu {
-    opacity: 1;
-    visibility: visible;
+    opacity: 1 !important;
+    visibility: visible !important;
     transform: translateX(0) scale(1);
 }
 
